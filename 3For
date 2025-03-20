@@ -1,0 +1,13 @@
+"""
+定义字符串变量name，内容为“chenzhenfeng is a student of asia pacific university of technology and innovation”
+通过For循环，遍历字符串，统计有多少个英文字符“n”
+提示：1 计数可以在循环外定义一个整数类型变量用来累加计数
+2 判断是否为“n”，可以通过if 语句结合比较运算符来完成。
+"""
+
+name = "chenzhenfeng is a student of asia pacific university of technology and innovation"
+count = 0
+for x in name:
+  if x == "a":
+  count +=1
+print(f"被统计的字符串中有{count}个a")
