@@ -8,6 +8,6 @@
 name = "chenzhenfeng is a student of asia pacific university of technology and innovation"
 count = 0
 for x in name:
-  if x == "a":
+  if x == "n":
   count +=1
 print(f"被统计的字符串中有{count}个a")
