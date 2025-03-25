@@ -1,0 +1,15 @@
+"""
+演示python中的range()语句的基本使用
+"""
+#range语法1range(num)
+for x in range(10):
+  print(x)
+#range语法2range(num1,num2)
+for x in range(1, 10):
+  print(x)
+#range语法3range(num1,num2,step)
+for x in range(1, 10, 2):
+  print(x)
+#送玫瑰花表白
+for x in rnge(10):
+  print("送玫瑰花")
